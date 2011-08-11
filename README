@@ -1,0 +1,16 @@
+Simple script to change the charset and collation of the text fields in a mysql database.
+
+How to use:
+
+Just fill in the db details in the variables:
+
+DBHOST='127.0.0.1'
+DBUSER='root'
+DBPASS=''
+DBDB='n_demot'
+
+
+also the required charset and collation:
+
+CHARSET = 'utf8'
+COLLATION = 'utf8_general_ci'
